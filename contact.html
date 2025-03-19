@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: "Helvetica";
+            background: #21da52;
+            height: 100%;
+        }
+    </style>
+</head>
+<header class="mainHeader text-3xl">
+    <div class="div1">
+        <img class="mainLogo" src="logo.png">
+    </div>
+    <div class="div2">
+        <h1>Callum Springall</h1>
+        <span>My website made with HTML, CSS and Tailwind.</span>
+    </div>
+    <nav class="nav flex justify-center">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="mainContent contentPage">
+        <form class="contact-form">
+        <h2>Contact Me</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.8905572458966!2d0.7111857765413041!3d51.349923071777894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df2b34bfee2f19%3A0x2f1c3afb6810c292!2sITonlinelearning!5e0!3m2!1sen!2suk!4v1740570257247!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</main>
+
+<footer class="mainFooter">
+    <div class="flex">
+        <p class="italic left">Website Design by<br/>Callum Springall</p>
+        <a href="https://tailwindcss.com/docs/installation/using-vite" class="middle" target="_blank" rel="noopener"><img class="tailwind" src="tailwind-logo.png" alt="Tailwind CSS logo which links to their website"></a>
+        <a href="https://uk.linkedin.com/in/callum-springall-387698132" target="_blank" rel="noopener" class="linkedin right"><img class="linkedin-logo" src="linkedin-logo.png"></a>
+    </div>
+</footer>
