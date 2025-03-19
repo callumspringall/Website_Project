@@ -235,6 +235,10 @@
     transform: scale(1.05);
 }
 
+.gallery-margin {
+    margin-top: 20px;
+}
+
 @media (max-width: 981px) {
     .nav a {
         font-size: 1.3rem;
